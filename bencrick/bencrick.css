@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    font-family: times;
+    font-family: montserrat;
 }
 
 div {
@@ -17,28 +17,37 @@ h1 {
 }
 
 h2 {
+    margin: 0; /*https://www.w3schools.com/howto/howto_css_center-vertical.asp*/
+    position: relative;
+    top: 42%;
     text-align: center;
-    height:250;
 }
 
 h3 {
+    margin: 0; /*https://www.w3schools.com/howto/howto_css_center-vertical.asp*/
+    position: relative;
+    top: 42%;
     text-align: center;
+    padding:10;
     font-size: 20;
-    height:250;
 }
 
 a {
     color:black;
     text-transform: lowercase;
-    font-size:23px;
-    padding:10px;
+    font-size:20px;
+    padding:8px;
     text-decoration: none; /*www.w3schools.com/cssref/pr_text_text-decoration.asp*/
+}
+
+a:hover {
+    color:orange;
 }
 
 .navi {
     text-align: right;
     padding:0;
-    margin:10;
+    margin:-26px -18px 0px 0px;
 }
 
 .container { 
