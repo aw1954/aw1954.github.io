@@ -44,70 +44,259 @@ h1 {
     padding:25px;
 }
 
-h2 {
-    font-size:40px;
-    font-weight: none;
-    font-style:normal;
-    writing-mode: vertical-rl; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation*/
-    text-orientation: upright;
-    position:fixed; /*https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/*/
-    margin:33px 60px 60px 120px;
+@media screen and (max-width: 600px) { /*https://www.w3schools.com/css/css3_mediaqueries.asp*/
+    h2 {
+        font-size:30px;
+        font-weight: none;
+        font-style:normal;
+        writing-mode: vertical-rl; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation*/
+        text-orientation: upright;
+        position:fixed; /*https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/*/
+        top:165px;
+        margin-left:15px;
+    }
+    
+    h3 {
+        font-size:40px;
+        font-weight: none;
+        font-style:normal;
+        /*writing-mode: vertical-rl; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation*/
+        /*text-orientation: upright;*/
+        position:relative; /*https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/*/
+        top:-148px;
+        left:280px;
+    }
+
+    .container {
+        position: relative;
+        top:-20px;
+        left:85px;
+        height:auto;
+        width: 70%;
+        line-height: 1.75;
+        font-size:17px;
+        margin-bottom:90px;
+        overflow-x: hidden;
+    }
+
+    .navcontain {
+        position:relative;
+        top:-180px;
+        margin:30px;
+        padding:15px;
+        overflow-x: hidden;
+    }
+
+    .cncontain {
+        position: relative;
+    }
+
+    .cncontain img, .nycontain img, .cacontain img {
+        width:500px;
+    }
+    
+    .wrcontain {
+        position: relative;
+        text-align:left;
+        padding:10px;
+        margin-bottom:15px;
+    }
+    
+    .nycontain {
+        position: relative;
+    }
+    
+    .cacontain {
+        position: relative;
+    }
+    
+    .lycontain {
+        position: relative;
+        text-align:left;
+        padding:10px;
+        margin-bottom:15px;
+    }
 }
 
-h3 {
-    font-size:40px;
-    font-weight: none;
-    font-style:normal;
-    writing-mode: vertical-rl; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation*/
-    text-orientation: upright;
-    position:fixed; /*https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/*/
-    left:50%;
-    top:40%
+@media screen and (min-width: 600px) { /*https://www.w3schools.com/css/css3_mediaqueries.asp*/
+    h2 {
+        font-size:40px;
+        font-weight: none;
+        font-style:normal;
+        writing-mode: vertical-rl; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation*/
+        text-orientation: upright;
+        position:fixed; /*https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/*/
+        margin:33px 60px 60px 120px;
+    }
+    h3 {
+        font-size:40px;
+        font-weight: none;
+        font-style:normal;
+        writing-mode: vertical-rl; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation*/
+        text-orientation: upright;
+        position:relative; /*https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/*/
+        left:418px;
+        top:356px;
+    }
+
+    .container {
+        position: relative;
+        top:25px;
+        left:215px;
+        height:auto;
+        width: 70%;
+        line-height: 1.75;
+        font-size:17px;
+        margin-bottom:90px;
+        overflow-x: hidden;
+    }
+
+    .navcontain {
+        position: fixed;
+        left: 5%;
+        top:-50px;
+        width:950px;
+        /*background-color: green;*/
+    }
+    
+    .lycontain {
+        position: relative;
+        width:360px;
+        top:-669px;
+        left:550px;
+        text-align:left;
+    }
+
+    .cncontain {
+        position: relative;
+        left:490px;
+        top:-123px;
+    }
+
+    .cncontain img {
+        width:250px;
+    }
+    
+    .wrcontain {
+        position: relative;
+        width:360px;
+        left:87px;
+        top:69px;
+        text-align:left;
+    }
+    
+    .nycontain {
+        position: relative;
+        left:0px;
+        top:-110px;
+    }
+
+    .nycontain img {
+        width:420px;
+    }
+    
+    .cacontain {
+        position: relative;
+        left:548px;
+        top:-259px;
+    }
+
+    .cacontain img {
+        width:380px;
+    }
 }
 
-.container {
-    position: relative;
-    top:25px;
-    left:215px;
-    height:auto;
-    width: 70%;
-    line-height: 1.75;
-    font-size:17px;
-    margin-bottom:90px;
+@media screen and (min-width: 1150px) { /*https://www.w3schools.com/css/css3_mediaqueries.asp*/
+    h2 {
+        font-size:40px;
+        font-weight: none;
+        font-style:normal;
+        writing-mode: vertical-rl; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation*/
+        text-orientation: upright;
+        position:fixed; /*https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/*/
+        margin:33px 60px 60px 120px;
+    }
+
+    h3 {
+        font-size:40px;
+        font-weight: none;
+        font-style:normal;
+        writing-mode: vertical-rl; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation*/
+        text-orientation: upright;
+        position:relative; /*https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/*/
+        left:418px;
+        top:356px;
+    }
+
+    .container {
+        position: relative;
+        top:25px;
+        left:215px;
+        height:auto;
+        width: 70%;
+        line-height: 1.75;
+        font-size:17px;
+        margin-bottom:90px;
+        overflow-x: hidden;
+    }
+
+    .navcontain {
+        position: fixed;
+        left: 21%;
+        top:-50px;
+        width:950px;
+        /*background-color: orange;*/
+    }
+    
+    .lycontain {
+        position: relative;
+        width:360px;
+        top:-669px;
+        left:550px;
+        text-align:left;
+    }
+
+    .cncontain {
+        position: relative;
+        left:490px;
+        top:-123px;
+    }
+
+    .cncontain img {
+        width:250px;
+    }
+    
+    .wrcontain {
+        position: relative;
+        width:360px;
+        left:87px;
+        top:69px;
+        text-align:left;
+    }
+    
+    .nycontain {
+        position: relative;
+        left:0px;
+        top:-110px;
+    }
+
+    .nycontain img {
+        width:420px;
+    }
+    
+    .cacontain {
+        position: relative;
+        left:548px;
+        top:-259px;
+    }
+
+    .cacontain img {
+        width:380px;
+    }
 }
 
-.wrcontain {
-    position: fixed;
-    width:360px;
-    left:27%;
-    top:18%;
-    text-align:left;
-}
-
-.lycontain {
-    position: fixed;
-    width:360px;
-    top:35%;
-    left:59%;
-    text-align:left;
-}
-
-.cncontain {
-    left:55%;
-    top:8%;
-    position: fixed;
-}
-
-.nycontain {
-    left:21%;
-    top:36%;
-    position: fixed;
-}
-
-.cacontain {
-    left:59%;
-    top:55%;
-    position: fixed;
+.cncontain img:hover, .nycontain img:hover, .cacontain img:hover {
+    opacity:0.2;
 }
 
 img { 
