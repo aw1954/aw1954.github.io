@@ -1,0 +1,38 @@
+<head>
+    <title>what time is it?</title>
+    <link rel = "stylesheet" href = "dis.css">
+    <script src="dis.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!--https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadein-->
+    <script>
+        $(document).ready(function(){
+            $("#food").fadeIn(4000);
+            $("#no").fadeIn(4000);
+        });
+    </script>
+</head>
+
+<body>
+    <t><h1 style="opacity:0.2;">have you eaten today?</h1></t>
+
+    
+    <div id="randomDiv" style="overflow-x:hidden;">
+        <div id="food" style="display:none;overflow-x:hidden;">
+        <div id="sandwich">
+            <commentText>that was yesterday, i think.</commentText>
+        </div>
+
+        <div id="ramen">
+            <commentText>that was the day before.</commentText>
+        </div>
+
+        <disappear><img src="sandwich.jpg"></disappear>
+        <disappear><img src="ramen.jpg" style="opacity:1;"></disappear>
+    </div>
+
+    <div id="no" style="display:none;overflow-x:hidden;">
+        <a href="room.html" style="font-size:45;font-family: 'La Belle Aurore', cursive;opacity:0.2;">no</a>
+    </div>
+    </div>
+</body>
