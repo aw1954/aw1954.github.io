@@ -125,10 +125,10 @@ h4 {
         font-family: 'La Belle Aurore', cursive;
         position:absolute;
         font-size:40px;
-        opacity:0.2;
+        opacity:1;
         margin:60px;
-        color:#393939;
-        transition: color 1s; /*https://www.w3schools.com/css/css3_transitions.asp*/
+        color:white;
+        /*transition: color 1s; /*https://www.w3schools.com/css/css3_transitions.asp*/
     }
     
     h5:hover {
@@ -139,10 +139,10 @@ h4 {
         font-family: 'La Belle Aurore', cursive;
         position:absolute;
         font-size:40px;
-        opacity:0.2;
+        opacity:1;
         margin:100px;
-        color:#393939;
-        transition: color 1s; /*https://www.w3schools.com/css/css3_transitions.asp*/
+        color:white;
+        /*transition: color 1s; /*https://www.w3schools.com/css/css3_transitions.asp*/
     }
     
     h6:hover {
@@ -263,29 +263,31 @@ disappear:hover {
         font-family: 'La Belle Aurore', cursive;
         position:absolute;
         font-size:40px;
-        opacity:0.2;
+        opacity:0.1;
         margin:60px;
-        color:#393939;
+        color:#545454;
         transition: color 1s; /*https://www.w3schools.com/css/css3_transitions.asp*/
     }
     
     h5:hover {
-        color: white;
+        color: #999999;
+        text-shadow: 2px 2px 8px #222222;
     }
 
     h6 {
         font-family: 'La Belle Aurore', cursive;
         position:absolute;
         font-size:40px;
-        opacity:0.2;
+        opacity:0.1;
         margin:100px;
-        color:#393939;
+        color:#545454;
         transition: color 1s; /*https://www.w3schools.com/css/css3_transitions.asp*/
     }
     
     h6:hover {
         color:white;
-        opacity:1;
+        opacity:0.2;
+        text-shadow: 2px 2px 8px #222222;
     }
 
     #randomDiv {
@@ -312,28 +314,30 @@ disappear:hover {
         font-size:24px;
         padding:1px;
         margin:1px;
-        opacity:0.2;
-        /*color:#393939;
+        opacity:0.1;
+        color:#545454;
         transition: color 1s; /*https://www.w3schools.com/css/css3_transitions.asp*/
     }
     
     h5:hover {
-        color: white;
+        color: #999999;
+        text-shadow: 2px 2px 8px #222222;
     }
 
     h6 {
         font-family: 'La Belle Aurore', cursive;
         opacity:0.5;
         font-size:24px;
-        padding:1px;
+        padding:0.1px;
         margin:1px;
-        /*color:#393939;
+        color:#545454;
         transition: color 1s; /*https://www.w3schools.com/css/css3_transitions.asp*/
     }
     
     h6:hover {
         color:white;
-        opacity:1;
+        opacity:0.2;
+        text-shadow: 2px 2px 8px #222222;
     }
 
     #randomDiv {
